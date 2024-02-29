@@ -3,7 +3,7 @@
 /*                                                       */
 /*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
 /*     —◉ DESAROLLADO POR:                               */
-/*     ◉ Creador MONOVAN                           */
+/*     ◉ Creador MONOVAN                                 */
 /*     ◉ Número: wa.me/527299350963                      */
 /*                                                        */
 /*                                                        */
