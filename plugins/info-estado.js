@@ -25,8 +25,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` _*< INFO - ESTADO />*_
 
- ▢ *Prop.:* Anthony Mendivil
- ▢ *WA:* +525625060788
+ ▢ *Prop.:* Monovan 
+ ▢ *WA:* +527299350963
 
  ▢ *Ping:* ${rtime}
  ▢ *Uptime:* ${uptime}
@@ -68,10 +68,10 @@ const handler = async (m, { conn, usedPrefix }) => {
         mediaUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
         mediaType: 2,
         previewType: "pdf",
-        title: "Capibot Premium",
+        title: "Monovan Bot ",
         body: "Whatsapp",
         thumbnail: imagen1,
-        sourceUrl: "wa.me/525625060788",
+        sourceUrl: "wa.me/527299350963",
       },
     },
     caption: info,
