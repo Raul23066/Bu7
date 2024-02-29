@@ -17,37 +17,37 @@ global.owner = [
   ['527299350963', '💫 Monovan - Collaborator 3 💫', true],
   ['527299350963', '💫 Monovan - Collaborator 4 💫', true],
   ['527229350963', '💫 Monovan - Collaborator 5 💫', true],
-  ['525625060788', '💫 Monovan - Collaborator 6 💫', true],
-  ['525625060788', '💫 Monovan - Rey Endymion 💫', false],
-  ['525625060788', '💫 Monovan - Collaborator 8 💫', true],
-  ['525625060788','💫 Monovan - Tester Fabri115💫', true],
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'], 
-  ['525625060788'],  
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'],
-  ['525625060788'], 
-  ['525625060788'], 
-  ['525625060788'],
-  ['525625060788']
+  ['527299350963', '💫 Monovan - Collaborator 6 💫', true],
+  ['527299350963', '💫 Monovan - Rey Endymion 💫', false],
+  ['527299350963', '💫 Monovan - Collaborator 8 💫', true],
+  ['527299350963','💫 Monovan - Tester Fabri115💫', true],
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'], 
+  ['527299350963'],  
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'],
+  ['527299350963'], 
+  ['527299350963'], 
+  ['527299350963'],
+  ['527299350963']
 ];
 
-global.suittag = ['525625060788'];
-global.prems = ['525625060788'];
+global.suittag = ['527299350963'];
+global.prems = ['527299350963'];
 
 global.packname = 'Sticker';
-global.author = 'Capibot Premium';
-global.wm = 'Capibot Premium';
-global.titulowm = 'CapiBot Premium';
-global.titulowm2 = `Capibot Premium`
-global.igfg = 'Capibot Premium';
+global.author = 'Monovan';
+global.wm = 'Monovan ';
+global.titulowm = 'Monovan ';
+global.titulowm2 = `Monovan `
+global.igfg = 'Monovan ';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -68,15 +68,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nCapibot Premium`;
-global.gt = 'Capibot Premium';
-global.mysticbot = 'CapiBot Premium';
-global.md = 'wa.me/525625060788';
-global.mysticbot = 'wa.me/525625060788';
+global.wm2 = `${dia} ${fecha}\nMonovan-Bot`;
+global.gt = 'Monovan-Bot ';
+global.mysticbot = 'Monovan-Bot ';
+global.md = ' ';
+global.mysticbot = ' ';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '525625060788';
+global.nomorown = '527299350963';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
