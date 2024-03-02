@@ -382,8 +382,8 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = ' ╠══════════════
-╟❧ @⁨user
+  conn.welcome = '╠══════════════
+╟❧ @
 ╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰 
 ║
 ╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙶𝚁𝚄𝙿𝙾:
