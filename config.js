@@ -42,7 +42,7 @@ global.owner = [
 global.suittag = ['527299350963'];
 global.prems = ['527299350963'];
 
-global.packname = 'Sticker';
+global.packname = 'Monovan';
 global.author = 'Monovan';
 global.wm = 'Monovan ';
 global.titulowm = 'Monovan ';
