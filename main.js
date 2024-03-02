@@ -382,14 +382,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '👋 ¡Bienvenido/a!\n@user';
-  conn.bye = '👋 ¡Hasta luego!\n@user';
-  conn.spromote = '*[ ℹ️ ] @user Fue promovido a administrador.*';
-  conn.sdemote = '*[ ℹ️ ] @user Fue degradado de administrador.*';
-  conn.sDesc = '*[ ℹ️ ] La descripción del grupo ha sido modificada.*';
-  conn.sSubject = '*[ ℹ️ ] El nombre del grupo ha sido modificado.*';
-  conn.sIcon = '*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo.*';
-  conn.sRevoke = '*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido.*';
+  conn.welcome = '👋 ¡Bienvenido/a!\n@user Espero y sea de tu agrado el grupo ATT:Monovan-Bot';
+  conn.bye = '👋 ¡Hasta luego!\n@user Lamentamos que el grupo no fuera de tu agrado ATT:Monovan-Bot';
+  conn.spromote = '*[ ℹ️ ] @user Fue añadido a administrador ATT:Monovan-Bot.*';
+  conn.sdemote = '*[ ℹ️ ] @user Fue eliminado de administrador ATT:Monovan-Bot.*';
+  conn.sDesc = '*[ ℹ️ ] La descripción del grupo ha sido modificada ATT:Monovan-Bot.*';
+  conn.sSubject = '*[ ℹ️ ] El nombre del grupo ha sido modificado ATT:Monovan-Bot.*';
+  conn.sIcon = '*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo ATT:Monovan-Bot.*';
+  conn.sRevoke = '*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido ATT:Monovan-Bot.*';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
