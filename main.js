@@ -176,17 +176,17 @@ let numeroTelefono
 if (!!phoneNumber) {
 numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-console.log(chalk.bgBlack(chalk.bold.redBright("Comience con el código de país de su número de WhatsApp.\nEjemplo: +527299350963\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("Comience con el código de país de su número de WhatsApp.\nEjemplo: +525625060788\n")))
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: +527299350963\n')))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: +525625060788\n')))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.redBright("Por favor, escriba su número de WhatsApp.\nEjemplo: +527299350963.\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("Por favor, escriba su número de WhatsApp.\nEjemplo: +525625060788.\n")))
 }}
 rl.close()  
 } 
@@ -382,24 +382,13 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '╠══════════════
-╟❧ @user
-╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰 
-║
-╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙶𝚁𝚄𝙿𝙾:
-║
-║❧@desc
-╟❧ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!
-╚══════════════';
-  conn.bye = '╔══════════════
-╟❧ @user
-╟❧ 𝙷𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 👋🏻 
-╚══════════════';
-  conn.spromote = '*[ ℹ️ ] @user Fue añadido a administrador .*';
-  conn.sdemote = '*[ ℹ️ ] @user Fue eliminado de administrador .*';
-  conn.sDesc = '*[ ℹ️ ] La descripción del grupo ha sido modificada .*';
-  conn.sSubject = '*[ ℹ️ ] El nombre del grupo ha sido modificado .*';
-  conn.sIcon = '*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo .*';
+  conn.welcome = '👋 ¡Bienvenido/a!\n@user espero que te guste el grupo :3';
+  conn.bye = '👋 ¡Hasta luego!\n@user lamentamos que el grupo no fuera de tu agrado';
+  conn.spromote = '*[ ℹ️ ] @user Fue agregado a administrador.*';
+  conn.sdemote = '*[ ℹ️ ] @user Fue eliminado de administrador.*';
+  conn.sDesc = '*[ ℹ️ ] La descripción del grupo ha sido modificada.*';
+  conn.sSubject = '*[ ℹ️ ] El nombre del grupo ha sido modificado.*';
+  conn.sIcon = '*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo.*';
   conn.sRevoke = '*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido.*';
 
   conn.handler = handler.handler.bind(global.conn);
