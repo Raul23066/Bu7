@@ -11,43 +11,43 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['527299350963', '👑 Monovan - Creador 👑', true],
-  ['527299350963', '💫 Monovan - Collaborator 1 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 2 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 3 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 4 💫', true],
-  ['527229350963', '💫 Monovan - Collaborator 5 💫', true],
-  ['527299350963', '💫 Monovan - Collaborator 6 💫', true],
-  ['527299350963', '💫 Monovan - Rey Endymion 💫', false],
-  ['527299350963', '💫 Monovan - Collaborator 8 💫', true],
-  ['527299350963','💫 Monovan - Tester Fabri115💫', true],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'], 
-  ['527299350963'],  
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'],
-  ['527299350963'], 
-  ['527299350963'], 
-  ['527299350963'],
-  ['527299350963']
+  ['529983356499', '👑 Monovan - Creador 👑', true],
+  ['529983356499', '💫 Monovan - Collaborator 1 💫', true],
+  ['529983356499', '💫 Monovan - Collaborator 2 💫', true],
+  ['529983356499', '💫 Monovan - Collaborator 3 💫', true],
+  ['529983356499', '💫 Monovan - Collaborator 4 💫', true],
+  ['529983356499', '💫 Monovan - Collaborator 5 💫', true],
+  ['529983356499', '💫 Monovan - Collaborator 6 💫', true],
+  ['529983356499', '💫 Monovan - Rey Endymion 💫', false],
+  ['529983356499', '💫 Monovan - Collaborator 8 💫', true],
+  ['529983356499','💫 Monovan - Tester Fabri115💫', true],
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'], 
+  ['529983356499'],  
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'],
+  ['529983356499'], 
+  ['529983356499'], 
+  ['529983356499'],
+  ['529983356499']
 ];
 
-global.suittag = ['527299350963'];
-global.prems = ['527299350963'];
+global.suittag = ['529983356499'];
+global.prems = ['529983356499'];
 
-global.packname = 'Monovan';
-global.author = 'Monovan';
-global.wm = 'Monovan ';
-global.titulowm = 'Monovan ';
-global.titulowm2 = `Monovan `
-global.igfg = 'Monovan ';
+global.packname = 'DINO';
+global.author = 'DINO';
+global.wm = 'DINO ';
+global.titulowm = 'DINO ';
+global.titulowm2 = `DINO `
+global.igfg = 'DINO ';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -76,7 +76,7 @@ global.mysticbot = ' ';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '527299350963';
+global.nomorown = '529983356499';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
