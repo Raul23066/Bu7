@@ -25,8 +25,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` _*< INFO - ESTADO />*_
 
- ▢ *Prop.:* Monovan 
- ▢ *WA:* +527299350963
+ ▢ *Prop.:* DINO BOT 
+ ▢ *WA:* +529983356499
 
  ▢ *Ping:* ${rtime}
  ▢ *Uptime:* ${uptime}
@@ -65,13 +65,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/Danielbot01/monovan-bot-.git",
+        mediaUrl: "https://chat.whatsapp.com/BUB34q8Dk9o3oTRsuIe3CH",
         mediaType: 2,
         previewType: "pdf",
-        title: "Monovan Bot ",
+        title: "DINO BOT ",
         body: "Whatsapp",
         thumbnail: imagen1,
-        sourceUrl: "wa.me/527299350963",
+        sourceUrl: "wa.me/529983356499",
       },
     },
     caption: info,
