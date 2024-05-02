@@ -21,19 +21,19 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `_*MONOVAN BOT*_
+    const str = `_*DINO BOT*_
 
  ▢ *Hola,* ${taguser}
 
  _*< TUS ESTADÍSTICAS />*_
 
- ▢ *Nivel:* ${level}
- ▢ *Experiencia:* ${exp}
- ▢ *Rango:* ${role}
- ▢ *Diamantes:* ${limit}
- ▢ *MonovanCoins:* ${money}
- ▢ *Tokens:* ${joincount}
- ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+ ▢ *DINO NIVEL:* ${level}
+ ▢ *EXPERIENCIA:* ${exp}
+ ▢ *RANGO:* ${role}
+ ▢ *DINO DIAMANTES:* ${limit}
+ ▢ *DINO COINS:* ${money}
+ ▢ *DINO TOKENS:* ${joincount}
+ ▢ *DINO PREMIUM:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
   _*< LISTA DE MENUS />*_
