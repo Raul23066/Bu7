@@ -1546,7 +1546,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ℹ️ ] Este comando fue desactivado por el propietario del bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'DINOBot', thumbnail: imagen1, sourceUrl: 'https://wa.me/523111365506'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'DINOBot', thumbnail: imagen1, sourceUrl: 'https://wa.me/8681595155'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
